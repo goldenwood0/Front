@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lab_7.css">
+    <title>Race Registration Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Montserrat:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form id="raceRegistrationForm">
+            <h2 class="montserrat">RACE REGISTRATION FORM</h2>
+
+            <label for="email" class="montserrat">E-mail</label>
+            <input type="email" id="email" name="email" class="montserrat" required>
+            <button type="reset">Reset</button>
+
+            <label class="montserrat">Title-</label>
+            <select name="title" required>
+                <option value="mr">Mr.</option>
+                <option value="ms">Ms.</option>
+                <option value="mrs">Mrs.</option>
+            </select>
+
+            <label for="firstName" class="montserrat">First Name</label>
+            <input type="text" id="firstName" name="firstName" required>
+            <button type="reset">Reset</button>
+
+            <label for="lastName" class="montserrat">Last Name</label>
+            <input type="text" id="lastName" name="lastName" required>
+            <button type="reset">Reset</button>
+
+            <label for="address" class="montserrat">Complete Postal Mailing Address</label>
+            <textarea id="address" name="address" required></textarea>
+            <button type="reset">Reset</button>
+
+            <label for="phone" class="montserrat">Phone</label>
+            <input type="tel" id="phone" name="phone" required>
+            <button type="reset">Reset</button>
+
+            <label for="fax" class="montserrat">Fax</label>
+            <input type="tel" id="fax" name="fax">
+            <button type="reset">Reset</button>
+
+            <label for="occupation" class="montserrat">Occupation</label>
+            <input type="text" id="occupation" name="occupation">
+            <button type="reset">Reset</button>
+
+            <label for="maritalStatus" class="montserrat">Marital Status</label>
+            <input type="text" id="maritalStatus" name="maritalStatus">
+            <button type="reset">Reset</button>
+
+            <label class="montserrat">Emergency Contact</label>
+            <input type="text" placeholder="Name" name="emergencyName" required><br>
+            <input type="email" placeholder="Email" name="emergencyEmail" required><br>
+            <input type="tel" placeholder="Phone No" name="emergencyPhone" required><br>
+            <button type="reset" class="montserrat">Reset</button>
+
+            <label class="montserrat">Select Trip</label>
+            <select name="trip" required>
+                <option value="Work">Work</option>
+                <option value="Travel">Travel</option>
+            </select>
+            <button type="reset" class="montserrat">Reset</button>
+
+            <label class="montserrat">I am a</label>
+            <input type="radio" id="runner" name="participantType" value="Runner" required> Writer
+            <input type="radio" id="walker" name="participantType" value="Walker" required> Builder
+            <input type="radio" id="cyclist" name="participantType" value="Cyclist" required> Professor
+            <button type="reset" class="montserrat">Reset</button>
+
+            <label class="montserrat">T-Shirt Size</label>
+            <select name="shirtSize" required>
+                <option value="Tiny">Tiny</option>
+                <option value="medium">Medium</option>
+                <option value="big">Big</option>
+                <option value="Heavy">Heavy</option>
+            </select>
+            <button type="reset" class="montserrat">Reset</button>
+
+            <label class="montserrat">Trousers Size</label>
+            <select name="shirtSize" required>
+                <option value="Tiny">Tiny</option>
+                <option value="medium">Medium</option>
+                <option value="big">Big</option>
+                <option value="Heavy">Heavy</option>
+            </select>
+            <button type="reset" class="montserrat">Reset</button>
+
+            <label class="montserrat">Smoker</label>
+            <input type="radio" id="smokerYes" name="smoker" value="Yes" required> Yes
+            <input type="radio" id="smokerNo" name="smoker" value="No" required> No
+            <button type="reset" class="montserrat">Reset</button>
+
+            <label for="roomPreference" class="montserrat">Room Sharing Preference</label>    
+            <input type="text" id="roomPreference" name="roomPreference">
+            <button type="reset" class="montserrat">Reset</button>
+
+            <label for="passportDetails"><h2 class="montserrat">Passport Details</h2></label>
+            <button type="reset" class="montserrat">Reset</button>
+
+            <label for="birthDate" class="montserrat">Exact name as it appears</label>
+            <input type="text" id="exactName" name="exactName" required>
+            <button type="reset" class="montserrat">Reset</button>
+
+            <label for="birthDate"class="montserrat">Date of Birth</label>
+            <input type="date" id="birthDate" name="birthDate" required>
+            <button type="reset"class="montserrat">Reset</button>
+
+            <label for="age"class="montserrat">Age</label>
+            <input type="number" id="age" name="age" required>
+            <button type="reset"class="montserrat">Reset</button>
+
+            <label for="placeOfBirth" class="montserrat">Place of Birth</label>
+            <input type="text" id="placeOfBirth" name="placeOfBirth" required>
+            <button type="reset"class="montserrat">Reset</button>
+
+            <label for="citizen" class="montserrat">Citizen of</label>
+            <input type="text" id="citizen" name="citizen" required>
+            <button type="reset"class="montserrat">Reset</button>
+
+            <label for="passportNumber" class="montserrat">Passport Number</label>
+            <input type="text" id="passportNumber" name="passportNumber" required>
+            <button type="reset" class="montserrat">Reset</button>
+
+            <label for="dateIssued" class="montserrat">Date Issued</label>
+            <input type="date" id="dateIssued" name="dateIssued" required>
+            <button type="reset"class="montserrat">Reset</button>
+
+            <label for="whereIssued" class="montserrat">Where Issued</label>
+            <input type="text" id="whereIssued" name="whereIssued" required>
+            <button type="reset"class="montserrat">Reset</button>
+
+            <label for="dateExpires"class="montserrat">Date Expires</label>
+            <input type="date" id="dateExpires" name="dateExpires" required>
+            <button type="reset"class="montserrat">Reset</button>
+
+            <div>
+                <label for="bookingConditions"class="montserrat">See Booking Conditions for all the trips</label>
+                <input type="checkbox" id="bookingConditions" name="bookingConditions" required>
+            </div>
+
+            <div>
+                <label for="agreeTerms" class="montserrat">I agree with booking terms & conditions</label>
+                <input type="checkbox" id="agreeTerms" name="agreeTerms" required>
+            </div>
+
+    
+
+            <button type="submit" class="montserrat">Send</button>
+        </form>
+    </div>
+    <script src="lab_7.js"></script>
+</body>
+</html>
